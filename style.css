@@ -1,3 +1,15 @@
-h1 {
-  colour: gold;
+* {
+font-family: roboto-condensed, sans-serif;
+font-style: normal;
+font-weight: 400;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+button{
+  width: 100vw;
+  height: 31vh;
+  background-color: #002a5c;
+  color: white;
 }
