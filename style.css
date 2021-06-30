@@ -7,9 +7,17 @@ padding: 0;
 box-sizing: border-box;
 }
 
+img{
+  display: inline-block;
+  padding-right: 5px;
+}
+h1{
+  display: inline-block;
+}
 button{
   width: 100vw;
   height: 31vh;
   background-color: #002a5c;
   color: white;
+  text-decoration: none;
 }
