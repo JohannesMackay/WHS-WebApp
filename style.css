@@ -21,3 +21,10 @@ button{
   color: white;
   text-decoration: none;
 }
+
+p{
+  padding-left: 10px;
+}
+h2{
+  padding-left: 10px;
+}
