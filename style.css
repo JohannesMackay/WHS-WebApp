@@ -34,10 +34,17 @@ button:hover{
 
 
 p{
-  padding-left: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 10px;
   font-size: 18px;
+  text-align: center;
 }
 h2{
   padding-left: 10px;
 }
+
+@media screen and (max-width: 2278px){
+  button{
+    height: 17vh;
+    }
