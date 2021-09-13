@@ -25,6 +25,9 @@ button{
   text-decoration: none;
 }
 
+img:hover{
+  cursor: pointer;
+}
 
 button:hover{
   background-color: #002a7c;
@@ -46,5 +49,5 @@ h2{
 
 @media screen and (max-width: 2278px){
   button{
-    height: 17vh;
+    height: 15vh;
     }
