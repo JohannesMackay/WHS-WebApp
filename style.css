@@ -75,3 +75,9 @@ h2{
         height: 17.5vh;
         }
       }
+
+@media screen and (max-width: 400){
+      button{
+        height: 15vh;
+        }
+      }
