@@ -18,7 +18,7 @@ font-size: 35px;
 }
 button{
   width: 100vw;
-  height: 22vh;
+  height: 20.5vh;
   background-color: #002a5c;
   color: white;
   font-size: 25px;
@@ -40,6 +40,7 @@ p{
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 10px;
+  padding-bottom: 12px;
   font-size: 18px;
   text-align: center;
 }
@@ -47,7 +48,30 @@ h2{
   padding-left: 10px;
 }
 
-@media screen and (max-width: 2278px){
+@media screen and (max-width: 1000px){
   button{
-    height: 15vh;
+    height: 20vh;
     }
+
+    p{
+      text-align: justify;
+    }
+  }
+
+@media screen and (max-width: 850px){
+    button{
+      height: 19.5vh;
+      }
+    }
+
+@media screen and (max-width: 750px){
+    button{
+      height: 19vh;
+      }
+    }
+
+@media screen and (max-width: 600px){
+      button{
+        height: 17.5vh;
+        }
+      }
